@@ -13,7 +13,7 @@ Windows 环境下编译 [Qt](https://www.qt.io/) 解压缩库 [quazip](https://g
 
 3. 使用低版本 Qt 编译，默认编译为 release 版，需要编译 debug 版本，将 **set(CMAKE_BUILD_TYPE RELEASE)** 改为 **set(CMAKE_BUILD_TYPE DEBUG)**；
 
-4. 建议不要同时编译不同的版本，可能会报“找不到 zlib”之类的错误。
+4. 建议不要同时使用 Qt Creator 编译不同的版本，可能会报“找不到 zlib”之类的错误。
 
 
 ### （二）MinGW
