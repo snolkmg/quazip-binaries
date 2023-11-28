@@ -68,6 +68,8 @@ else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/quazip-0.9.1/static/ -l
 INCLUDEPATH += $$PWD/quazip-0.9.1/include
 DEPENDPATH += $$PWD/quazip-0.9.1/include
 
+INCLUDEPATH += $$[QT_INSTALL_HEADERS]/QtZlib // 连接静态库有时找不到zlib，需要添加这句话
+
 或者
 
 # quazip-1.3
